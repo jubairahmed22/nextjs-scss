@@ -1,0 +1,15 @@
+@mixin bd-radius($value){
+    -webkit-border-radius: $value;
+    -moz-border-radius: $value;
+    border-radius: $value;
+}
+
+.first{
+  @include bd-radius(10px)
+}
+.Sec{
+  @include bd-radius(20px)
+}
+.Thi{
+  @include bd-radius(30px)
+}
